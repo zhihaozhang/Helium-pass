@@ -71,8 +71,8 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         let timeInterval:TimeInterval = now.timeIntervalSince1970
         let timeStamp = Int(timeInterval)
         print("当前时间的时间戳：\(timeStamp)")
-        print(String(timeStamp)+"000")
-        return String(timeStamp)+"000"
+        print(String(timeStamp)+"999")
+        return String(timeStamp)+"999"
         
         
     }
