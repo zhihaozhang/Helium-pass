@@ -22,7 +22,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         
 
             
-            self.preferredContentSize = CGSize(width:self.view.frame.size.width, height:240)
+            self.preferredContentSize = CGSize(width:self.view.frame.size.width, height:250)
             
             if #available(iOSApplicationExtension 10.0, *) {
                 self.extensionContext?.widgetLargestAvailableDisplayMode = .expanded
@@ -34,9 +34,9 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         @available(iOSApplicationExtension 10.0, *)
         func widgetActiveDisplayModeDidChange(_ activeDisplayMode: NCWidgetDisplayMode, withMaximumSize maxSize: CGSize) {
             if activeDisplayMode == .expanded {
-                self.preferredContentSize = CGSize(width: self.view.frame.size.width, height: CGFloat(2.4)*100)
+                self.preferredContentSize = CGSize(width: self.view.frame.size.width, height: CGFloat(2.5)*100)
             }else if activeDisplayMode == .compact{
-                self.preferredContentSize = CGSize(width: maxSize.width, height: 240)
+                self.preferredContentSize = CGSize(width: maxSize.width, height: 250)
             }
         
         
@@ -68,19 +68,20 @@ class TodayViewController: UIViewController, NCWidgetProviding {
         let dformatter = DateFormatter()
         
         //当前时间的时间戳
-        let timeInterval:TimeInterval = now.timeIntervalSince1970
+        let timeInterval:TimeInterval = now.timeIntervalSince1970 * 1000
         let timeStamp = Int(timeInterval)
-        print("当前时间的时间戳：\(timeStamp)")
-        print(String(timeStamp)+"999")
-        return String(timeStamp)+"999"
+//        print("当前时间的时间戳：\(timeStamp)")
+//        print(String(timeStamp)+"999")
+        return String(timeStamp)
         
         
     }
     
     
     func refresh (){
-        var pass = "52674|13162978698|"+(getNow())+"|310110B006"
+        var pass = "52746|18616022533|"+getNow()+"|310110B006"
         
+//        print(pass)
         if let tryImage = EFQRCode.generate(
             content: pass,
             magnification: EFIntSize(width: 9, height: 9),
