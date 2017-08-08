@@ -1,0 +1,6 @@
+framework module Pods___Pass {
+  umbrella header "Pods-新氦Pass-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,14 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A8F49559FE0FC4DF0718768 /* Pods____Pass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC59C781CD987DD00ECC39A9 /* Pods____Pass.framework */; };
+		23D9F735E3410A2AE50C58D0 /* Pods___Pass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38A2A1089FA884F3FB24B278 /* Pods___Pass.framework */; };
 		CE0C7F021F398E6D009692B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7F011F398E6D009692B2 /* AppDelegate.swift */; };
 		CE0C7F041F398E6D009692B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7F031F398E6D009692B2 /* ViewController.swift */; };
 		CE0C7F071F398E6D009692B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0C7F051F398E6D009692B2 /* Main.storyboard */; };
 		CE0C7F091F398E6D009692B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE0C7F081F398E6D009692B2 /* Assets.xcassets */; };
 		CE0C7F0C1F398E6D009692B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0C7F0A1F398E6D009692B2 /* LaunchScreen.storyboard */; };
+		CE0C7F191F399AED009692B2 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE0C7F181F399AED009692B2 /* NotificationCenter.framework */; };
+		CE0C7F1C1F399AED009692B2 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0C7F1B1F399AED009692B2 /* TodayViewController.swift */; };
+		CE0C7F1F1F399AED009692B2 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE0C7F1D1F399AED009692B2 /* MainInterface.storyboard */; };
+		CE0C7F231F399AED009692B2 /* 楼小二Pass.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CE0C7F171F399AED009692B2 /* 楼小二Pass.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		CE0C7F211F399AED009692B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE0C7EF61F398E6C009692B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE0C7F161F399AED009692B2;
+			remoteInfo = "楼小二Pass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CE0C7F271F399AED009692B2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CE0C7F231F399AED009692B2 /* 楼小二Pass.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		38A2A1089FA884F3FB24B278 /* Pods___Pass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods___Pass.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC92F045BA21DAFB5672A1C /* Pods-楼小二Pass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-楼小二Pass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-楼小二Pass/Pods-楼小二Pass.debug.xcconfig"; sourceTree = "<group>"; };
+		4B8864CB26B0A8CB4718CC44 /* Pods-新氦Pass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新氦Pass.debug.xcconfig"; path = "Pods/Target Support Files/Pods-新氦Pass/Pods-新氦Pass.debug.xcconfig"; sourceTree = "<group>"; };
+		BFECB97F7EF53D4A9B723315 /* Pods-新氦Pass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-新氦Pass.release.xcconfig"; path = "Pods/Target Support Files/Pods-新氦Pass/Pods-新氦Pass.release.xcconfig"; sourceTree = "<group>"; };
 		CE0C7EFE1F398E6C009692B2 /* 新氦Pass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "新氦Pass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE0C7F011F398E6D009692B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE0C7F031F398E6D009692B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +56,13 @@
 		CE0C7F081F398E6D009692B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE0C7F0B1F398E6D009692B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE0C7F0D1F398E6D009692B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE0C7F171F399AED009692B2 /* 楼小二Pass.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "楼小二Pass.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE0C7F181F399AED009692B2 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		CE0C7F1B1F399AED009692B2 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		CE0C7F1E1F399AED009692B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		CE0C7F201F399AED009692B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC59C781CD987DD00ECC39A9 /* Pods____Pass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods____Pass.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF2A7DDD672B1523CFCB86C8 /* Pods-楼小二Pass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-楼小二Pass.release.xcconfig"; path = "Pods/Target Support Files/Pods-楼小二Pass/Pods-楼小二Pass.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +70,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23D9F735E3410A2AE50C58D0 /* Pods___Pass.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE0C7F141F399AED009692B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0C7F191F399AED009692B2 /* NotificationCenter.framework in Frameworks */,
+				1A8F49559FE0FC4DF0718768 /* Pods____Pass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11EDA5436EAD341758412E24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38A2A1089FA884F3FB24B278 /* Pods___Pass.framework */,
+				CE0C7F181F399AED009692B2 /* NotificationCenter.framework */,
+				FC59C781CD987DD00ECC39A9 /* Pods____Pass.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3FC67AE5DAB66D1C3B18C2FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B8864CB26B0A8CB4718CC44 /* Pods-新氦Pass.debug.xcconfig */,
+				BFECB97F7EF53D4A9B723315 /* Pods-新氦Pass.release.xcconfig */,
+				3BC92F045BA21DAFB5672A1C /* Pods-楼小二Pass.debug.xcconfig */,
+				FF2A7DDD672B1523CFCB86C8 /* Pods-楼小二Pass.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CE0C7EF51F398E6C009692B2 = {
 			isa = PBXGroup;
 			children = (
 				CE0C7F001F398E6C009692B2 /* 新氦Pass */,
+				CE0C7F1A1F399AED009692B2 /* 楼小二Pass */,
 				CE0C7EFF1F398E6C009692B2 /* Products */,
+				3FC67AE5DAB66D1C3B18C2FD /* Pods */,
+				11EDA5436EAD341758412E24 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				CE0C7EFE1F398E6C009692B2 /* 新氦Pass.app */,
+				CE0C7F171F399AED009692B2 /* 楼小二Pass.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +140,16 @@
 			path = "新氦Pass";
 			sourceTree = "<group>";
 		};
+		CE0C7F1A1F399AED009692B2 /* 楼小二Pass */ = {
+			isa = PBXGroup;
+			children = (
+				CE0C7F1B1F399AED009692B2 /* TodayViewController.swift */,
+				CE0C7F1D1F399AED009692B2 /* MainInterface.storyboard */,
+				CE0C7F201F399AED009692B2 /* Info.plist */,
+			);
+			path = "楼小二Pass";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,18 +157,42 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE0C7F101F398E6D009692B2 /* Build configuration list for PBXNativeTarget "新氦Pass" */;
 			buildPhases = (
+				EDE060C73092ABC7E3B5DE31 /* [CP] Check Pods Manifest.lock */,
 				CE0C7EFA1F398E6C009692B2 /* Sources */,
 				CE0C7EFB1F398E6C009692B2 /* Frameworks */,
 				CE0C7EFC1F398E6C009692B2 /* Resources */,
+				90D2B4BB6BDD2FF1C6B43B6B /* [CP] Embed Pods Frameworks */,
+				319A0E43D6DE6E41670D016D /* [CP] Copy Pods Resources */,
+				CE0C7F271F399AED009692B2 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				CE0C7F221F399AED009692B2 /* PBXTargetDependency */,
 			);
 			name = "新氦Pass";
 			productName = "新氦Pass";
 			productReference = CE0C7EFE1F398E6C009692B2 /* 新氦Pass.app */;
 			productType = "com.apple.product-type.application";
+		};
+		CE0C7F161F399AED009692B2 /* 楼小二Pass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE0C7F241F399AED009692B2 /* Build configuration list for PBXNativeTarget "楼小二Pass" */;
+			buildPhases = (
+				B38E010715A7FDCB129512B1 /* [CP] Check Pods Manifest.lock */,
+				CE0C7F131F399AED009692B2 /* Sources */,
+				CE0C7F141F399AED009692B2 /* Frameworks */,
+				CE0C7F151F399AED009692B2 /* Resources */,
+				106AD2EBA6924DE310FDE885 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "楼小二Pass";
+			productName = "楼小二Pass";
+			productReference = CE0C7F171F399AED009692B2 /* 楼小二Pass.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,7 +206,12 @@
 				TargetAttributes = {
 					CE0C7EFD1F398E6C009692B2 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = 2JY6F4ZP47;
+						DevelopmentTeam = 4YJDBEQ64H;
+						ProvisioningStyle = Automatic;
+					};
+					CE0C7F161F399AED009692B2 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4YJDBEQ64H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -115,6 +230,7 @@
 			projectRoot = "";
 			targets = (
 				CE0C7EFD1F398E6C009692B2 /* 新氦Pass */,
+				CE0C7F161F399AED009692B2 /* 楼小二Pass */,
 			);
 		};
 /* End PBXProject section */
@@ -130,7 +246,93 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE0C7F151F399AED009692B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0C7F1F1F399AED009692B2 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		106AD2EBA6924DE310FDE885 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-楼小二Pass/Pods-楼小二Pass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		319A0E43D6DE6E41670D016D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新氦Pass/Pods-新氦Pass-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		90D2B4BB6BDD2FF1C6B43B6B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-新氦Pass/Pods-新氦Pass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B38E010715A7FDCB129512B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE060C73092ABC7E3B5DE31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CE0C7EFA1F398E6C009692B2 /* Sources */ = {
@@ -142,7 +344,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CE0C7F131F399AED009692B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0C7F1C1F399AED009692B2 /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE0C7F221F399AED009692B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE0C7F161F399AED009692B2 /* 楼小二Pass */;
+			targetProxy = CE0C7F211F399AED009692B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		CE0C7F051F398E6D009692B2 /* Main.storyboard */ = {
@@ -159,6 +377,14 @@
 				CE0C7F0B1F398E6D009692B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		CE0C7F1D1F399AED009692B2 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE0C7F1E1F399AED009692B2 /* Base */,
+			);
+			name = MainInterface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -259,26 +485,62 @@
 		};
 		CE0C7F111F398E6D009692B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B8864CB26B0A8CB4718CC44 /* Pods-新氦Pass.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2JY6F4ZP47;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4YJDBEQ64H;
 				INFOPLIST_FILE = "新氦Pass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zhihao.fudan.--Pass";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihao.OnePass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		CE0C7F121F398E6D009692B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFECB97F7EF53D4A9B723315 /* Pods-新氦Pass.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2JY6F4ZP47;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 4YJDBEQ64H;
 				INFOPLIST_FILE = "新氦Pass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "zhihao.fudan.--Pass";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihao.OnePass;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CE0C7F251F399AED009692B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC92F045BA21DAFB5672A1C /* Pods-楼小二Pass.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4YJDBEQ64H;
+				INFOPLIST_FILE = "楼小二Pass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihao.OnePass.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CE0C7F261F399AED009692B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2A7DDD672B1523CFCB86C8 /* Pods-楼小二Pass.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 4YJDBEQ64H;
+				INFOPLIST_FILE = "楼小二Pass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhihao.OnePass.Widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +564,16 @@
 				CE0C7F121F398E6D009692B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE0C7F241F399AED009692B2 /* Build configuration list for PBXNativeTarget "楼小二Pass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE0C7F251F399AED009692B2 /* Debug */,
+				CE0C7F261F399AED009692B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

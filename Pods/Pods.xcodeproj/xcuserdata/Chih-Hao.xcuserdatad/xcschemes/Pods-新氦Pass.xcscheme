@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CE0C7EFD1F398E6C009692B2"
-               BuildableName = "&#x65b0;&#x6c26;Pass.app"
-               BlueprintName = "&#x65b0;&#x6c26;Pass"
-               ReferencedContainer = "container:&#x65b0;&#x6c26;Pass.xcodeproj">
+               BlueprintIdentifier = "93051623CF1779BBD1445D8685652535"
+               BuildableName = "Pods___Pass.framework"
+               BlueprintName = "Pods-&#x65b0;&#x6c26;Pass"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,15 +29,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE0C7EFD1F398E6C009692B2"
-            BuildableName = "&#x65b0;&#x6c26;Pass.app"
-            BlueprintName = "&#x65b0;&#x6c26;Pass"
-            ReferencedContainer = "container:&#x65b0;&#x6c26;Pass.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -51,16 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE0C7EFD1F398E6C009692B2"
-            BuildableName = "&#x65b0;&#x6c26;Pass.app"
-            BlueprintName = "&#x65b0;&#x6c26;Pass"
-            ReferencedContainer = "container:&#x65b0;&#x6c26;Pass.xcodeproj">
+            BlueprintIdentifier = "93051623CF1779BBD1445D8685652535"
+            BuildableName = "Pods___Pass.framework"
+            BlueprintName = "Pods-&#x65b0;&#x6c26;Pass"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "CE0C7EFD1F398E6C009692B2"
-            BuildableName = "&#x65b0;&#x6c26;Pass.app"
-            BlueprintName = "&#x65b0;&#x6c26;Pass"
-            ReferencedContainer = "container:&#x65b0;&#x6c26;Pass.xcodeproj">
+            BlueprintIdentifier = "93051623CF1779BBD1445D8685652535"
+            BuildableName = "Pods___Pass.framework"
+            BlueprintName = "Pods-&#x65b0;&#x6c26;Pass"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -4,25 +4,35 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>新氦Pass.xcscheme</key>
+		<key>EFQRCode.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>2</integer>
 		</dict>
-		<key>楼小二Pass.xcscheme</key>
+		<key>Pods-新氦Pass.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>3</integer>
+		</dict>
+		<key>Pods-楼小二Pass.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>CE0C7EFD1F398E6C009692B2</key>
+		<key>067564EDA429EB663178447047E6D337</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CE0C7F161F399AED009692B2</key>
+		<key>506DA105F03363D4B19900778E5951F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>93051623CF1779BBD1445D8685652535</key>
 		<dict>
 			<key>primary</key>
 			<true/>
