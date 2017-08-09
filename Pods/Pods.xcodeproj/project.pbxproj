@@ -7,111 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0227962B6D6C458259FA210F98DA71C1 /* Pods-楼小二Pass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B920FCCDF96BCED734B619792516839 /* Pods-楼小二Pass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		08556E89F176437A93928ADBD74FA3AE /* Pods-楼小二Pass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C918CC07205A1CA1CFF546F256823DF /* Pods-楼小二Pass-dummy.m */; };
-		0E7898001636107053DFECC9509942DA /* Pods-新氦Pass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BD9851166D034E5FB4B6164E4375E0 /* Pods-新氦Pass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		20AFBFE2B83581E3FB5C550145E7E9A4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		2374B8C61D7FA8ADFF2C41620BFB96CB /* EFQRCodeGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9123056B1CB1E2EB68BFC7592E5DECB8 /* EFQRCodeGenerator.swift */; };
-		2E9DF108F332D0B150340CC19E0ABC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		51D6CCA3CC8B7905BA95339808A18A35 /* Pods-新氦Pass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB4787A993C2D611BB0DF20ABE900AD /* Pods-新氦Pass-dummy.m */; };
-		55BD99DB5D4FE84622E40DDEDB087269 /* EFQRCodeRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 460EC8199E9D97E4A04DF7809A056CCA /* EFQRCodeRecognizer.swift */; };
-		588CBA6646251BD3707EB408120D460C /* EFDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49617300944D10BD0D89F2DDA567A297 /* EFDefine.swift */; };
-		676460797E7BE0A48BFC2F06F94FFD5D /* EFQRCode-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6588029836A8E0BF4B09DE5E8FBFDA1A /* EFQRCode-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		68A623183868B70BC0AE53E02F170B5D /* CIImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEEA71C3EEEC38815482C76ED2DC62E3 /* CIImage+.swift */; };
-		6AAC9375E26EFE0B2A6D4C6E09DAFA6F /* CIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A1F0AC805249E670F66E5A64220869 /* CIColor+.swift */; };
-		6E9E25EE85A8C25CA698C5AC63073C30 /* CGImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6149ED37404D53BD8A36D53B7B07BEEE /* CGImage+.swift */; };
-		760A10C98F1FF9C1598D2390DD6C06AE /* EFQRCode-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69AC8DC8C3225957963901BC05C92404 /* EFQRCode-dummy.m */; };
-		8E397075571745092EEE7514722621AE /* SystemColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A029902C230226A70B3CBDB3B6CA56 /* SystemColor+.swift */; };
-		96BB0D613243E91C64D3CA35200D089D /* CGSize+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569E1D63B6DED56C9C828635E3C7059E /* CGSize+.swift */; };
-		A2EAFDEB34CC23EE7257354B5B41B215 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		B66E80802F791BCCFFF03EFF4D9E9E44 /* CGColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A981DF176C862DAC91C1075F20CC132 /* CGColor+.swift */; };
-		D327DF637265D88CFEBA98F097844A80 /* SystemImage+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 001D3F182D9CA43FC9EBA276E365A149 /* SystemImage+.swift */; };
-		FE901773509BFFD19EE2C46BF381127A /* EFQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0993E34C47741B9366E8B9F2AB3535E /* EFQRCode.swift */; };
+		416E6D191D087693BD1AEA1CCED8BEEE /* Pods-新氦Pass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38BD9851166D034E5FB4B6164E4375E0 /* Pods-新氦Pass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42C5DB0458D63CE9AC3357D9C812E8A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		4C7271A94B535B62EC3EF01B9890CEBB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		68D1EC35ADB90AD9C699E2EE320EEBD3 /* Pods-楼小二Pass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C918CC07205A1CA1CFF546F256823DF /* Pods-楼小二Pass-dummy.m */; };
+		B1A2933B3C1020B4F363001E716E4D9A /* Pods-楼小二Pass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B920FCCDF96BCED734B619792516839 /* Pods-楼小二Pass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA4354B8272655DA7648287D1ADA683E /* Pods-新氦Pass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB4787A993C2D611BB0DF20ABE900AD /* Pods-新氦Pass-dummy.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		037BC4C4ADAE73E8B25A6A974EE3D57D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 067564EDA429EB663178447047E6D337;
-			remoteInfo = EFQRCode;
-		};
-		40771799438C91C1049889821F14836F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 067564EDA429EB663178447047E6D337;
-			remoteInfo = EFQRCode;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		001D3F182D9CA43FC9EBA276E365A149 /* SystemImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SystemImage+.swift"; path = "EFQRCode/Classes/SystemImage+.swift"; sourceTree = "<group>"; };
 		009B41E3602D57EA66708F561477529D /* Pods-楼小二Pass-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-楼小二Pass-acknowledgements.plist"; sourceTree = "<group>"; };
-		09551A3434B31C72EE630BB27D20FE0C /* EFQRCode.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFQRCode.xcconfig; sourceTree = "<group>"; };
-		09A1F0AC805249E670F66E5A64220869 /* CIColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIColor+.swift"; path = "EFQRCode/Classes/CIColor+.swift"; sourceTree = "<group>"; };
 		0B920FCCDF96BCED734B619792516839 /* Pods-楼小二Pass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-楼小二Pass-umbrella.h"; sourceTree = "<group>"; };
 		122FD4E5FABF4B429E96A5E037300415 /* Pods-新氦Pass-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-新氦Pass-acknowledgements.plist"; sourceTree = "<group>"; };
 		14DB674716A1FC0459516B107223CD4E /* Pods-新氦Pass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-新氦Pass.debug.xcconfig"; sourceTree = "<group>"; };
 		16D7CE18BBA200A37DA196CB609FFE5B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A7328C4B3577538A4077CA7AC4216B1 /* Pods___Pass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods___Pass.framework; path = "Pods-新氦Pass.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BD9851166D034E5FB4B6164E4375E0 /* Pods-新氦Pass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-新氦Pass-umbrella.h"; sourceTree = "<group>"; };
-		460EC8199E9D97E4A04DF7809A056CCA /* EFQRCodeRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFQRCodeRecognizer.swift; path = EFQRCode/Classes/EFQRCodeRecognizer.swift; sourceTree = "<group>"; };
-		49617300944D10BD0D89F2DDA567A297 /* EFDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFDefine.swift; path = EFQRCode/Classes/EFDefine.swift; sourceTree = "<group>"; };
-		4A981DF176C862DAC91C1075F20CC132 /* CGColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGColor+.swift"; path = "EFQRCode/Classes/CGColor+.swift"; sourceTree = "<group>"; };
+		38E909A420E99FAFD65397E3C2EE7F91 /* Pods____Pass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods____Pass.framework; path = "Pods-楼小二Pass.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		50D5C3D9F905868C13E739BB8B64F8F1 /* Pods-新氦Pass-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-新氦Pass-acknowledgements.markdown"; sourceTree = "<group>"; };
-		569E1D63B6DED56C9C828635E3C7059E /* CGSize+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGSize+.swift"; path = "EFQRCode/Classes/CGSize+.swift"; sourceTree = "<group>"; };
 		5AB4787A993C2D611BB0DF20ABE900AD /* Pods-新氦Pass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-新氦Pass-dummy.m"; sourceTree = "<group>"; };
-		5F21175DBF35E63D398D8D1D9126FA3B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6149ED37404D53BD8A36D53B7B07BEEE /* CGImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CGImage+.swift"; path = "EFQRCode/Classes/CGImage+.swift"; sourceTree = "<group>"; };
-		6588029836A8E0BF4B09DE5E8FBFDA1A /* EFQRCode-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFQRCode-umbrella.h"; sourceTree = "<group>"; };
-		67A10F16E80803DA195A60B895BA5E21 /* Pods___Pass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods___Pass.framework; path = "Pods-新氦Pass.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		67D02712A90BBDA20DAFE07C6684BE81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		69AC8DC8C3225957963901BC05C92404 /* EFQRCode-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFQRCode-dummy.m"; sourceTree = "<group>"; };
 		6C918CC07205A1CA1CFF546F256823DF /* Pods-楼小二Pass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-楼小二Pass-dummy.m"; sourceTree = "<group>"; };
 		6EA7D77A325B44C1AEB1B6670449C8F5 /* Pods-新氦Pass-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-新氦Pass-frameworks.sh"; sourceTree = "<group>"; };
-		830553BB7BA86CDEA09448BAB272BCAF /* EFQRCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFQRCode.framework; path = EFQRCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9123056B1CB1E2EB68BFC7592E5DECB8 /* EFQRCodeGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFQRCodeGenerator.swift; path = EFQRCode/Classes/EFQRCodeGenerator.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9CDBB227B6174D3351D997BA2F036B2B /* Pods-新氦Pass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-新氦Pass.release.xcconfig"; sourceTree = "<group>"; };
-		A0993E34C47741B9366E8B9F2AB3535E /* EFQRCode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFQRCode.swift; path = EFQRCode/Classes/EFQRCode.swift; sourceTree = "<group>"; };
-		A2E922BAF2C48FB8325B9D1971AD5D27 /* Pods____Pass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods____Pass.framework; path = "Pods-楼小二Pass.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9C827805FB1BCDC0B5BB0ADE46F1C9B /* EFQRCode-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFQRCode-prefix.pch"; sourceTree = "<group>"; };
 		B1B1A02425663A45C5BBA5989D60DD3A /* Pods-楼小二Pass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-楼小二Pass.release.xcconfig"; sourceTree = "<group>"; };
-		BEEA71C3EEEC38815482C76ED2DC62E3 /* CIImage+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CIImage+.swift"; path = "EFQRCode/Classes/CIImage+.swift"; sourceTree = "<group>"; };
 		C5446830EC7C5F04FE3F312DBFA0BF43 /* Pods-新氦Pass-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-新氦Pass-resources.sh"; sourceTree = "<group>"; };
 		C9BF36EBC16AB6D2DE7CF0E214412300 /* Pods-楼小二Pass-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-楼小二Pass-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CBC1FB95BF8DC92A4D22D24D1A58D533 /* Pods-楼小二Pass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-楼小二Pass.modulemap"; sourceTree = "<group>"; };
 		D209B0CA34B96F3E22DF4C01E8D8C2D6 /* Pods-新氦Pass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-新氦Pass.modulemap"; sourceTree = "<group>"; };
-		D7188DC362CACEB9A088925B63E4B0E7 /* EFQRCode.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = EFQRCode.modulemap; sourceTree = "<group>"; };
 		E4C7F57AADFF42E86ADCC731676D4ECE /* Pods-楼小二Pass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-楼小二Pass.debug.xcconfig"; sourceTree = "<group>"; };
 		F11BD6BF5693FBB1F2D3A4410C6F9679 /* Pods-楼小二Pass-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-楼小二Pass-resources.sh"; sourceTree = "<group>"; };
-		F8A029902C230226A70B3CBDB3B6CA56 /* SystemColor+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "SystemColor+.swift"; path = "EFQRCode/Classes/SystemColor+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4CB26AA9622FF2D0BD9143EC5108160F /* Frameworks */ = {
+		B05B0C3A1C83662E3C8E226BF72471C7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2EAFDEB34CC23EE7257354B5B41B215 /* Foundation.framework in Frameworks */,
+				42C5DB0458D63CE9AC3357D9C812E8A6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5EB8DB5A61EC878AA98C5AF0E793CD2 /* Frameworks */ = {
+		D0722D5A4C5E0015CB9815853F7312AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E9DF108F332D0B150340CC19E0ABC15 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CFC5A3871AAEF67104EC8D195B582AD0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				20AFBFE2B83581E3FB5C550145E7E9A4 /* Foundation.framework in Frameworks */,
+				4C7271A94B535B62EC3EF01B9890CEBB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,20 +70,11 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3E865A0E771694A7C822F43B078034EC /* Pods */ = {
+		4D09832ACD6EC8E6D405859914A6F94F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E7CB11E46E8EDF3BC372FBD0B938113E /* EFQRCode */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		42824350546AFCB978B88E25F2DF24FB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				830553BB7BA86CDEA09448BAB272BCAF /* EFQRCode.framework */,
-				A2E922BAF2C48FB8325B9D1971AD5D27 /* Pods____Pass.framework */,
-				67A10F16E80803DA195A60B895BA5E21 /* Pods___Pass.framework */,
+				38E909A420E99FAFD65397E3C2EE7F91 /* Pods____Pass.framework */,
+				1A7328C4B3577538A4077CA7AC4216B1 /* Pods___Pass.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -158,8 +92,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3E865A0E771694A7C822F43B078034EC /* Pods */,
-				42824350546AFCB978B88E25F2DF24FB /* Products */,
+				4D09832ACD6EC8E6D405859914A6F94F /* Products */,
 				06E38A58228DA60381D9C92FB10A8A07 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -190,40 +123,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E7CB11E46E8EDF3BC372FBD0B938113E /* EFQRCode */ = {
-			isa = PBXGroup;
-			children = (
-				4A981DF176C862DAC91C1075F20CC132 /* CGColor+.swift */,
-				6149ED37404D53BD8A36D53B7B07BEEE /* CGImage+.swift */,
-				569E1D63B6DED56C9C828635E3C7059E /* CGSize+.swift */,
-				09A1F0AC805249E670F66E5A64220869 /* CIColor+.swift */,
-				BEEA71C3EEEC38815482C76ED2DC62E3 /* CIImage+.swift */,
-				49617300944D10BD0D89F2DDA567A297 /* EFDefine.swift */,
-				A0993E34C47741B9366E8B9F2AB3535E /* EFQRCode.swift */,
-				9123056B1CB1E2EB68BFC7592E5DECB8 /* EFQRCodeGenerator.swift */,
-				460EC8199E9D97E4A04DF7809A056CCA /* EFQRCodeRecognizer.swift */,
-				F8A029902C230226A70B3CBDB3B6CA56 /* SystemColor+.swift */,
-				001D3F182D9CA43FC9EBA276E365A149 /* SystemImage+.swift */,
-				E8CBBC802B537D38D1A67F1597549FD5 /* Support Files */,
-			);
-			name = EFQRCode;
-			path = EFQRCode;
-			sourceTree = "<group>";
-		};
-		E8CBBC802B537D38D1A67F1597549FD5 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D7188DC362CACEB9A088925B63E4B0E7 /* EFQRCode.modulemap */,
-				09551A3434B31C72EE630BB27D20FE0C /* EFQRCode.xcconfig */,
-				69AC8DC8C3225957963901BC05C92404 /* EFQRCode-dummy.m */,
-				A9C827805FB1BCDC0B5BB0ADE46F1C9B /* EFQRCode-prefix.pch */,
-				6588029836A8E0BF4B09DE5E8FBFDA1A /* EFQRCode-umbrella.h */,
-				5F21175DBF35E63D398D8D1D9126FA3B /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EFQRCode";
-			sourceTree = "<group>";
-		};
 		ECCE4A69F5D04C0E5401A03BD2820B40 /* Pods-楼小二Pass */ = {
 			isa = PBXGroup;
 			children = (
@@ -244,84 +143,57 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1636574C96DB954E50CD207A905B052C /* Headers */ = {
+		162FC1EA28CAC39C671EAC9D0F133041 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0227962B6D6C458259FA210F98DA71C1 /* Pods-楼小二Pass-umbrella.h in Headers */,
+				416E6D191D087693BD1AEA1CCED8BEEE /* Pods-新氦Pass-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CD7705111EFFDCB94D9EC04F99F39EB3 /* Headers */ = {
+		C5F7CEF92B346FD2930139FAEC59F729 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				676460797E7BE0A48BFC2F06F94FFD5D /* EFQRCode-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D299B446FC8209E14F9B5AE3C590C6BD /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E7898001636107053DFECC9509942DA /* Pods-新氦Pass-umbrella.h in Headers */,
+				B1A2933B3C1020B4F363001E716E4D9A /* Pods-楼小二Pass-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		067564EDA429EB663178447047E6D337 /* EFQRCode */ = {
+		E65237ED2B4CF096577FFC8C9E36A696 /* Pods-新氦Pass */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 010432FD87B16137D6FB56D95AB5E129 /* Build configuration list for PBXNativeTarget "EFQRCode" */;
+			buildConfigurationList = 8E23D25195F53151FBF3257D41E83440 /* Build configuration list for PBXNativeTarget "Pods-新氦Pass" */;
 			buildPhases = (
-				311E96237DBCC56811BE78FF05A53696 /* Sources */,
-				CFC5A3871AAEF67104EC8D195B582AD0 /* Frameworks */,
-				CD7705111EFFDCB94D9EC04F99F39EB3 /* Headers */,
+				A93CB7FC45A0C2187FE44BEB953BF5A5 /* Sources */,
+				D0722D5A4C5E0015CB9815853F7312AA /* Frameworks */,
+				162FC1EA28CAC39C671EAC9D0F133041 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = EFQRCode;
-			productName = EFQRCode;
-			productReference = 830553BB7BA86CDEA09448BAB272BCAF /* EFQRCode.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		506DA105F03363D4B19900778E5951F3 /* Pods-楼小二Pass */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B9C41E521E6C320DD1FAC6D97CF2CE5 /* Build configuration list for PBXNativeTarget "Pods-楼小二Pass" */;
-			buildPhases = (
-				44C96657A87C04DCEE74F19E10E7F7D4 /* Sources */,
-				4CB26AA9622FF2D0BD9143EC5108160F /* Frameworks */,
-				1636574C96DB954E50CD207A905B052C /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				8F415FB666B33D9A5424A705AC91B3EF /* PBXTargetDependency */,
-			);
-			name = "Pods-楼小二Pass";
-			productName = "Pods-楼小二Pass";
-			productReference = A2E922BAF2C48FB8325B9D1971AD5D27 /* Pods____Pass.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		93051623CF1779BBD1445D8685652535 /* Pods-新氦Pass */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C9BCA5BBD7EADC22E330E7ECBCC5F8C9 /* Build configuration list for PBXNativeTarget "Pods-新氦Pass" */;
-			buildPhases = (
-				D1F097E27D34AD87730EDB964B20459E /* Sources */,
-				C5EB8DB5A61EC878AA98C5AF0E793CD2 /* Frameworks */,
-				D299B446FC8209E14F9B5AE3C590C6BD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F29AFABF70C55876C27B3BF9B6376D8 /* PBXTargetDependency */,
 			);
 			name = "Pods-新氦Pass";
 			productName = "Pods-新氦Pass";
-			productReference = 67A10F16E80803DA195A60B895BA5E21 /* Pods___Pass.framework */;
+			productReference = 1A7328C4B3577538A4077CA7AC4216B1 /* Pods___Pass.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE75F048CA47047D102C1A4B2BCD2563 /* Pods-楼小二Pass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 379905667AF3597C40157427604A2D54 /* Build configuration list for PBXNativeTarget "Pods-楼小二Pass" */;
+			buildPhases = (
+				55863A5E98BE99D6DAEEC39FDFE94EB9 /* Sources */,
+				B05B0C3A1C83662E3C8E226BF72471C7 /* Frameworks */,
+				C5F7CEF92B346FD2930139FAEC59F729 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-楼小二Pass";
+			productName = "Pods-楼小二Pass";
+			productReference = 38E909A420E99FAFD65397E3C2EE7F91 /* Pods____Pass.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -341,104 +213,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 42824350546AFCB978B88E25F2DF24FB /* Products */;
+			productRefGroup = 4D09832ACD6EC8E6D405859914A6F94F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				067564EDA429EB663178447047E6D337 /* EFQRCode */,
-				93051623CF1779BBD1445D8685652535 /* Pods-新氦Pass */,
-				506DA105F03363D4B19900778E5951F3 /* Pods-楼小二Pass */,
+				E65237ED2B4CF096577FFC8C9E36A696 /* Pods-新氦Pass */,
+				FE75F048CA47047D102C1A4B2BCD2563 /* Pods-楼小二Pass */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		311E96237DBCC56811BE78FF05A53696 /* Sources */ = {
+		55863A5E98BE99D6DAEEC39FDFE94EB9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B66E80802F791BCCFFF03EFF4D9E9E44 /* CGColor+.swift in Sources */,
-				6E9E25EE85A8C25CA698C5AC63073C30 /* CGImage+.swift in Sources */,
-				96BB0D613243E91C64D3CA35200D089D /* CGSize+.swift in Sources */,
-				6AAC9375E26EFE0B2A6D4C6E09DAFA6F /* CIColor+.swift in Sources */,
-				68A623183868B70BC0AE53E02F170B5D /* CIImage+.swift in Sources */,
-				588CBA6646251BD3707EB408120D460C /* EFDefine.swift in Sources */,
-				760A10C98F1FF9C1598D2390DD6C06AE /* EFQRCode-dummy.m in Sources */,
-				FE901773509BFFD19EE2C46BF381127A /* EFQRCode.swift in Sources */,
-				2374B8C61D7FA8ADFF2C41620BFB96CB /* EFQRCodeGenerator.swift in Sources */,
-				55BD99DB5D4FE84622E40DDEDB087269 /* EFQRCodeRecognizer.swift in Sources */,
-				8E397075571745092EEE7514722621AE /* SystemColor+.swift in Sources */,
-				D327DF637265D88CFEBA98F097844A80 /* SystemImage+.swift in Sources */,
+				68D1EC35ADB90AD9C699E2EE320EEBD3 /* Pods-楼小二Pass-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		44C96657A87C04DCEE74F19E10E7F7D4 /* Sources */ = {
+		A93CB7FC45A0C2187FE44BEB953BF5A5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08556E89F176437A93928ADBD74FA3AE /* Pods-楼小二Pass-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D1F097E27D34AD87730EDB964B20459E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				51D6CCA3CC8B7905BA95339808A18A35 /* Pods-新氦Pass-dummy.m in Sources */,
+				FA4354B8272655DA7648287D1ADA683E /* Pods-新氦Pass-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5F29AFABF70C55876C27B3BF9B6376D8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EFQRCode;
-			target = 067564EDA429EB663178447047E6D337 /* EFQRCode */;
-			targetProxy = 40771799438C91C1049889821F14836F /* PBXContainerItemProxy */;
-		};
-		8F415FB666B33D9A5424A705AC91B3EF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EFQRCode;
-			target = 067564EDA429EB663178447047E6D337 /* EFQRCode */;
-			targetProxy = 037BC4C4ADAE73E8B25A6A974EE3D57D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
-		08833B2D1FA39F38DFB5226455E4F324 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09551A3434B31C72EE630BB27D20FE0C /* EFQRCode.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EFQRCode/EFQRCode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFQRCode/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFQRCode/EFQRCode.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EFQRCode;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -479,16 +283,15 @@
 			};
 			name = Release;
 		};
-		3627231C6DE011F7690636C2B865B338 /* Debug */ = {
+		48185BCA00A27D5764919B5734AE2094 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4C7F57AADFF42E86ADCC731676D4ECE /* Pods-楼小二Pass.debug.xcconfig */;
+			baseConfigurationReference = B1B1A02425663A45C5BBA5989D60DD3A /* Pods-楼小二Pass.release.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -501,7 +304,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-楼小二Pass/Pods-楼小二Pass.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -509,14 +312,48 @@
 				PRODUCT_NAME = Pods____Pass;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		89A698035781AB0493F7929EFD61C532 /* Debug */ = {
+		586A48EBA0D0B1E5191053DA1E23CE4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CDBB227B6174D3351D997BA2F036B2B /* Pods-新氦Pass.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-新氦Pass/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-新氦Pass/Pods-新氦Pass.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods___Pass;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C72304A564244A62518B96A528AE0D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 14DB674716A1FC0459516B107223CD4E /* Pods-新氦Pass.debug.xcconfig */;
 			buildSettings = {
@@ -545,18 +382,16 @@
 				PRODUCT_NAME = Pods___Pass;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		8A6745E932BC58BC61C3F1CB800B0D5D /* Debug */ = {
+		B6C2913562D36D950DEC7C48DFD5F6BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 09551A3434B31C72EE630BB27D20FE0C /* EFQRCode.xcconfig */;
+			baseConfigurationReference = E4C7F57AADFF42E86ADCC731676D4ECE /* Pods-楼小二Pass.debug.xcconfig */;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -568,18 +403,20 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EFQRCode/EFQRCode-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFQRCode/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-楼小二Pass/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFQRCode/EFQRCode.modulemap";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-楼小二Pass/Pods-楼小二Pass.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EFQRCode;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods____Pass;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -630,89 +467,9 @@
 			};
 			name = Debug;
 		};
-		F33AE7D977BD35B7BFD4C0A5F9230DC3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1B1A02425663A45C5BBA5989D60DD3A /* Pods-楼小二Pass.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-楼小二Pass/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-楼小二Pass/Pods-楼小二Pass.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods____Pass;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		F5234D6E8C81080E1C1BC0A7341CB99E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CDBB227B6174D3351D997BA2F036B2B /* Pods-新氦Pass.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-新氦Pass/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-新氦Pass/Pods-新氦Pass.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods___Pass;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		010432FD87B16137D6FB56D95AB5E129 /* Build configuration list for PBXNativeTarget "EFQRCode" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				8A6745E932BC58BC61C3F1CB800B0D5D /* Debug */,
-				08833B2D1FA39F38DFB5226455E4F324 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -722,20 +479,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B9C41E521E6C320DD1FAC6D97CF2CE5 /* Build configuration list for PBXNativeTarget "Pods-楼小二Pass" */ = {
+		379905667AF3597C40157427604A2D54 /* Build configuration list for PBXNativeTarget "Pods-楼小二Pass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3627231C6DE011F7690636C2B865B338 /* Debug */,
-				F33AE7D977BD35B7BFD4C0A5F9230DC3 /* Release */,
+				B6C2913562D36D950DEC7C48DFD5F6BF /* Debug */,
+				48185BCA00A27D5764919B5734AE2094 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C9BCA5BBD7EADC22E330E7ECBCC5F8C9 /* Build configuration list for PBXNativeTarget "Pods-新氦Pass" */ = {
+		8E23D25195F53151FBF3257D41E83440 /* Build configuration list for PBXNativeTarget "Pods-新氦Pass" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				89A698035781AB0493F7929EFD61C532 /* Debug */,
-				F5234D6E8C81080E1C1BC0A7341CB99E /* Release */,
+				8C72304A564244A62518B96A528AE0D4 /* Debug */,
+				586A48EBA0D0B1E5191053DA1E23CE4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -23,16 +23,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nUk-qK-Ilb">
-                                <rect key="frame" x="115" y="8" width="90" height="90"/>
+                                <rect key="frame" x="125" y="8" width="70" height="70"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="100" id="IAr-Kx-udI"/>
+                                    <constraint firstAttribute="width" constant="70" id="IAr-Kx-udI"/>
                                     <constraint firstAttribute="width" secondItem="nUk-qK-Ilb" secondAttribute="height" multiplier="1:1" id="SA4-zV-rJg"/>
-                                    <constraint firstAttribute="height" constant="100" id="fcH-bJ-ZsS"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="nUk-qK-Ilb" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="10" id="IQI-XG-QpC"/>
+                            <constraint firstItem="nUk-qK-Ilb" firstAttribute="top" secondItem="Ft6-oW-KC0" secondAttribute="bottom" constant="23" id="IQI-XG-QpC"/>
                             <constraint firstItem="nUk-qK-Ilb" firstAttribute="centerX" secondItem="S3S-Oj-5AN" secondAttribute="centerX" id="mZK-ju-7aK"/>
                         </constraints>
                     </view>

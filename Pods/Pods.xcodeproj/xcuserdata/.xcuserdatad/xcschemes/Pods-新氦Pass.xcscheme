@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '93051623CF1779BBD1445D8685652535'
+               BlueprintIdentifier = 'E65237ED2B4CF096577FFC8C9E36A696'
                BlueprintName = 'Pods-新氦Pass'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods-新氦Pass.framework'>
